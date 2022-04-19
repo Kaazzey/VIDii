@@ -28,8 +28,8 @@ Mijn startniveau is: blauw
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/schets1.jpg" width="375px" alt="eerste schets">
-  <img src="readme-images/schets2.jpg" width="375px" alt="eerste schets">
+  <img src="readme-images/schets1.png" width="375px" alt="eerste schets">
+  <img src="readme-images/schets2.png" width="375px" alt="eerste schets">
   <img src="readme-images/ontwerp1.png" width="375px" alt="eerste versie">
 
 
