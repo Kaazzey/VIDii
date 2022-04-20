@@ -31,6 +31,8 @@ Mijn startniveau is: blauw
   <img src="readme-images/schets1.png" width="375px" alt="eerste schets">
   <img src="readme-images/schets2.png" width="375px" alt="eerste schets">
   <img src="readme-images/ontwerp1.png" width="375px" alt="eerste versie">
+  <img src="readme-images/ontwerp2.png" width="375px" alt="eerste versie">
+
 
 
   ### Je ambitie: 
