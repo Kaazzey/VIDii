@@ -14,6 +14,89 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
-h1 {
-  color:crimson;
+/* Blok met alle Eeve stroken er in, is altijd zo groot als de browser */
+#groep {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Class die ieder Eevee blok heeft, zorgt ervoor dat afbeelding in het midden van het blok staat */
+.blok {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* De Eevee afbeelding */
+img {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Eevee blok */
+/* 100% width en heigth zorgt ervoor dat de breedte van de blokken eerlijk worden verdeeld */
+#eevee {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+/* Eevee blok */
+#eevee2 {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+/* Eevee blok */
+#eevee3 {
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+}
+
+/* Eevee blok */
+#eevee4 {
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+}
+
+/* Eevee blok */
+#eevee5 {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+/* Eevee blok */
+#eevee6 {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+}
+
+/* Eevee blok */
+#eevee7 {
+  width: 100%;
+  height: 100%;
+  background-color: brown;
+}
+
+/* Eevee blok */
+#eevee8 {
+  width: 100%;
+  height: 100%;
+  background-color: pink;
+}
+
+/* Eevee blok */
+#eevee9 {
+  width: 100%;
+  height: 100%;
+  background-color: orange;
 }
