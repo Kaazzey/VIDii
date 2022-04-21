@@ -167,6 +167,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. bron 1: VW & VH https://stackoverflow.com/questions/24808661/make-div-100-width-of-browser-window
 2. bron 2: Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-3. ...
+3. bron 3: CSS Animaties https://css-tricks.com/almanac/properties/a/animation/
 
 </details>
