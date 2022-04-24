@@ -53,24 +53,41 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De informatie die ik had gevonden, over dat de eevee's level 15 moeten zijn voordat ze kunnen evolueren, klopt niet. Eevee hoeft niet perse level 15 te zijn, maar moet wel een hoge vriendschap met je vormen, de tijd van de dag maakt uit en de stenen die bepaalde evoluties kunnen sturen ook.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+De benodigdheden om eevee te evolueren weergeven in de interface. Dit wil ik doen bij de details over de desbetreffende eeveelution. Ik wil de focus meer op de kaart leggen en heb daarom mijn design iets aangepast met een verduidelijking wat er op de eevee kaart komt te staan. 
+<img src="readme-images/ontwerp3.png" width="375px" alt="Aanpassing ontwerp">
 
 
 
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Er is nog geen verband tussen eevee en het evolueren naar een eeveelution.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
+Ik zit er aan te denken een button te maken onder de interface waarmee je kan kiezen naar welke eevee je wilt evolueren.
 
   ### Bevinding 3:
-  ...
+  Ik wil pokemon kaarten tonen met meer info over de eeveelution. Zoals ik dat in mijn schetsen/1e ontwerp in adobe xd voor ogen zie. Echter staat er beschreven dat er maar één pagina gerealiseerd mag worden en zal ik dus moeten werken met een overlay.
+  <img src="readme-images/ontwerp3.png" width="375px" alt="eerste versie">
 
+  #### oplossing:
+Een overlay maken met javascript.
+
+  ### Bevinding 4:
+De overlay werkt alleen op de eerste button. (javascript op de button was ook inline...)
+  <img src="readme-images/java1.png" width="375px" alt="eerste versie">
+
+  #### oplossing:
+Ik heb het werkend weten te krijgen op iedere aparte button. Daarnaast is de inline javascript nu ook weg.
+
+  ### Bevinding 5:
+Op dit moment is enkel de button onder de staart klikbaar, maar de staart zelf nog niet.
+
+
+  #### oplossing:
+Ik wil dit oplossen door de staart te veranderen in een button, waardoor de button eronder dus verdwijnt. Of ik behoud de button, maar de staart is ook klikbaar.
 </details>
 
 
@@ -168,5 +185,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 1. bron 1: VW & VH https://stackoverflow.com/questions/24808661/make-div-100-width-of-browser-window
 2. bron 2: Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. bron 3: CSS Animaties https://css-tricks.com/almanac/properties/a/animation/
+4. bron 4: JS Overlay https://www.w3schools.com/howto/howto_css_overlay.asp
+5. bron 5: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+6. bron 6: https://www.w3schools.com/js/js_functions.asp
 
 </details>

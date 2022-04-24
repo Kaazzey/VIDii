@@ -1,69 +1,232 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="Gwyneth Schmitz">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>VIDii 2022 - Eeveelution</title>
-	
+
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/eevee8bit.png">
 	<!-- eevee 8bit image: https://pngset.com/download-free-png-cshwz -->
 </head>
 
 <body>
-		<!-- Blok waarin alle Eevee stroken staan -->
-		<div id="groep">
+	<!-- Blok waarin alle Eevee stroken staan -->
+	<div id="groep">
 
-			<!-- Eevee blok -->
-			<div id="eevee" class="blok">
-				<img src="images/eeveestaart.png" alt="Eevee staart">
+		<!-- Eevee blok -->
+		<div id="eevee" class="blok">
+			<img src="images/eeveestaart.png" alt="Eevee staart">
+			<button id="btnEevee">Eevee</button>
+		</div>
+
+		<!-- Vaporeon blok -->
+		<div id="vaporeon" class="blok">
+			<img src="images/vaporeonstaart.png" alt="Vaporeon staart">
+			<button id="btnVaporeon">Vaporeon</button>
+		</div>
+
+		<!-- Jolteon blok -->
+		<div id="jolteon" class="blok">
+			<img src="images/jolteonstaart.png" alt="Jolteon staart">
+			<button id="btnJolteon">Jolteon</button>
+		</div>
+
+		<!-- Flareon blok -->
+		<div id="flareon" class="blok">
+			<img src="images/flareonstaart.png" alt="Flareon staart">
+			<button id="btnFlareon">Flareon</button>
+		</div>
+
+		<!-- Umbreon blok -->
+		<div id="umbreon" class="blok">
+			<img src="images/umbreonstaart.png" alt="Umbreon staart">
+			<button id="btnUmbreon">Umbreon</button>
+		</div>
+
+		<!-- Espeon blok -->
+		<div id="espeon" class="blok">
+			<img src="images/espeonstaart.png" alt="Espeon staart">
+			<button id="btnEspeon">Espeon</button>
+		</div>
+
+		<!-- Leafeon blok -->
+		<div id="leafeon" class="blok">
+			<img src="images/leafeonstaart.png" alt="Leafeon staart">
+			<button id="btnLeafeon">Leafeon</button>
+		</div>
+
+		<!-- Glaceon blok -->
+		<div id="glaceon" class="blok">
+			<img src="images/glaceonstaart.png" alt="Glaceon staart">
+			<button id="btnGlaceon">Glaceon</button>
+		</div>
+
+		<!-- Sylveon blok -->
+		<div id="sylveon" class="blok">
+			<img src="images/sylveonstaart.png" alt="Sylveon staart">
+			<button id="btnSylveon">Sylveon</button>
+		</div>
+
+		<!-- Overlay pokemon kaart https://www.w3schools.com/howto/howto_css_overlay.asp -->
+		<div id="overlay">
+			<div class="kaart" id="eeveeKaart">
+				<div class="naam">
+					<h1>Basic pokemon</h1>
+					<h2>Eevee</h2>
+					<img src="images/normal.png" alt="Normal Type" class="type">
+				</div>
+				<img src="images/eeveeimg.jpg" alt="Eevee" class="pokemonimg">
+				<h3>Requirements to evolve</h3>
+				<p class="kaartekst">Eevee is a small, mammalian, quadrupedal Pokémon. Eevee is said to have an
+					irregularly shaped genetic structure that is easily influenced by its environment. This allows it to
+					adapt to a variety of habitats by evolving. Eevee can potentially evolve into 8 different
+					evolutions.</p>
+				<h3>Special move</h3>
+				<p class="kaartekst">Eevee is the only known Pokémon capable of using the exclusive Z-Move Extreme
+					Evoboost.</p>
 			</div>
 
-			<!-- Vaporeon blok -->
-			<div id="vaporeon" class="blok">
-				<img src="images/vaporeonstaart.png" alt="Vaporeon staart">
+			<div class="kaart" id="vaporeonKaart">
+				<div class="naam">
+					<h1>Water pokemon</h1>
+					<h2>Vaporeon</h2>
+					<img src="images/water.png" alt="Water Type" class="type">
+				</div>
+				<img src="images/vaporeonimg.png" alt="Eevee" class="pokemonimg">
+				<h3>Requirements to evolve</h3>
+				<p class="kaartekst">Vaporeon is a Pokémon that shares physical traits with both aquatic and land
+					animals. It evolves from Eevee when exposed to a Water Stone. It is one of Eevee's final forms.</p>
+				<h3>Special move</h3>
+				<p class="kaartekst">Vaporeon's special ability is Water Absorb.</p>
 			</div>
 
-			<!-- Jolteon blok -->
-			<div id="jolteon" class="blok">
-				<img src="images/jolteonstaart.png" alt="Jolteon staart">
+			<div class="kaart" id="jolteonKaart">
+			<div class="naam">
+				<h1>Lightning pokemon</h1>
+				<h2>Jolteon</h2>
+			<img src="images/electric.png" alt="Lightning Type" class="type">
+			</div>
+			<img src="images/jolteonimg.png" alt="Eevee" class="pokemonimg">
+			<h3>Requirements to evolve</h3>
+			<p class="kaartekst">Jolteon is a quadrupedal, mammalian Pokémon. It evolves from Eevee when exposed to a Thunder Stone. It is one of Eevee's final forms.</p>
+			<h3>Special move</h3>
+			<p class="kaartekst">Jolteon's special ability is Volt Absorb.</p>
 			</div>
 
-			<!-- Flareon blok -->
-			<div id="flareon" class="blok">
-				<img src="images/flareonstaart.png" alt="Flareon staart">
+			<div class="kaart" id="flareonKaart">
+				<div class="naam">
+					<h1>Fire pokemon</h1>
+					<h2>Flareon</h2>
+				<img src="images/electric.png" alt="Lightning Type" class="type">
+				</div>
+				<img src="images/jolteonimg.png" alt="Eevee" class="pokemonimg">
+				<h3>Requirements to evolve</h3>
+				<p class="kaartekst">Jolteon is a quadrupedal, mammalian Pokémon. It evolves from Eevee when exposed to a Thunder Stone. It is one of Eevee's final forms.</p>
+				<h3>Special move</h3>
+				<p class="kaartekst">Jolteon's special ability is Volt Absorb.</p>
 			</div>
 
-			<!-- Umbreon blok -->
-			<div id="umbreon" class="blok">
-				<img src="images/umbreonstaart.png" alt="Umbreon staart">	
+			<div class="kaart" id="umbreonKaart">
+				<div class="naam">
+					<h1>Lightning pokemon</h1>
+					<h2>Umbreon</h2>
+				<img src="images/electric.png" alt="Lightning Type" class="type">
+				</div>
+				<img src="images/jolteonimg.png" alt="Eevee" class="pokemonimg">
+				<h3>Requirements to evolve</h3>
+				<p class="kaartekst">Jolteon is a quadrupedal, mammalian Pokémon. It evolves from Eevee when exposed to a Thunder Stone. It is one of Eevee's final forms.</p>
+				<h3>Special move</h3>
+				<p class="kaartekst">Jolteon's special ability is Volt Absorb.</p>
 			</div>
 
-			<!-- Espeon blok -->
-			<div id="espeon" class="blok">
-				<img src="images/espeonstaart.png" alt="Espeon staart">	
+			<div class="kaart" id="espeonKaart">
+				<div class="naam">
+					<h1>Lightning pokemon</h1>
+					<h2>Espeon</h2>
+				<img src="images/electric.png" alt="Lightning Type" class="type">
+				</div>
+				<img src="images/jolteonimg.png" alt="Eevee" class="pokemonimg">
+				<h3>Requirements to evolve</h3>
+				<p class="kaartekst">Jolteon is a quadrupedal, mammalian Pokémon. It evolves from Eevee when exposed to a Thunder Stone. It is one of Eevee's final forms.</p>
+				<h3>Special move</h3>
+				<p class="kaartekst">Jolteon's special ability is Volt Absorb.</p>
 			</div>
 
-			<!-- Leafeon blok -->
-			<div id="leafeon" class="blok">
-				<img src="images/leafeonstaart.png" alt="Leafeon staart">	
+			<div class="kaart" id="leafeonKaart">
+				<div class="naam">
+					<h1>Lightning pokemon</h1>
+					<h2>Leafeon</h2>
+				<img src="images/electric.png" alt="Lightning Type" class="type">
+				</div>
+				<img src="images/jolteonimg.png" alt="Eevee" class="pokemonimg">
+				<h3>Requirements to evolve</h3>
+				<p class="kaartekst">Jolteon is a quadrupedal, mammalian Pokémon. It evolves from Eevee when exposed to a Thunder Stone. It is one of Eevee's final forms.</p>
+				<h3>Special move</h3>
+				<p class="kaartekst">Jolteon's special ability is Volt Absorb.</p>
 			</div>
 
-			<!-- Glaceon blok -->
-			<div id="glaceon" class="blok">
-				<img src="images/glaceonstaart.png" alt="Glaceon staart">	
+			<div class="kaart" id="glaceonKaart">
+				<div class="naam">
+					<h1>Lightning pokemon</h1>
+					<h2>Glaceon</h2>
+				<img src="images/electric.png" alt="Lightning Type" class="type">
+				</div>
+				<img src="images/jolteonimg.png" alt="Eevee" class="pokemonimg">
+				<h3>Requirements to evolve</h3>
+				<p class="kaartekst">Jolteon is a quadrupedal, mammalian Pokémon. It evolves from Eevee when exposed to a Thunder Stone. It is one of Eevee's final forms.</p>
+				<h3>Special move</h3>
+				<p class="kaartekst">Jolteon's special ability is Volt Absorb.</p>
 			</div>
-
-			<!-- Sylveon blok -->
-			<div id="sylveon" class="blok">
-				<img src="images/sylveonstaart.png" alt="Sylveon staart">	
+			
+			<div class="kaart" id="sylveonKaart">
+				<div class="naam">
+					<h1>Lightning pokemon</h1>
+					<h2>Sylveon</h2>
+				<img src="images/electric.png" alt="Lightning Type" class="type">
+				</div>
+				<img src="images/jolteonimg.png" alt="Eevee" class="pokemonimg">
+				<h3>Requirements to evolve</h3>
+				<p class="kaartekst">Jolteon is a quadrupedal, mammalian Pokémon. It evolves from Eevee when exposed to a Thunder Stone. It is one of Eevee's final forms.</p>
+				<h3>Special move</h3>
+				<p class="kaartekst">Jolteon's special ability is Volt Absorb.</p>
 			</div>
 		</div>
 
-	<script src="scripts/script.js"></script>
+
+		<!-- Overlay pokemon kaart https://www.w3schools.com/howto/howto_css_overlay.asp -->
+		<!-- <div id="overlay" onclick="off()">
+			<div class="kaart">
+				<div class="naam">
+					<h1>Water pokemon</h1>
+					<h2>Vaporeon</h2>
+					<img src="images/water.png" alt="Water Type" class="type">
+				</div>
+				<img src="images/vaporeonimg.png" alt="Eevee" class="pokemonimg">
+				<h3>Requirements to evolve</h3>
+				<p class="kaartekst">Vaporeon is a Pokémon that shares physical traits with both aquatic and land
+					animals. It evolves from Eevee when exposed to a Water Stone. It is one of Eevee's final forms.</p>
+				<h3>Special move</h3>
+				<p class="kaartekst">Vaporeon's special ability is Water Absorb.</p>
+			</div> -->
+
+			<!-- <div class="kaart">
+			<div class="naam">
+				<h1>Lightning pokemon</h1>
+				<h2>Jolteon</h2>
+			<img src="images/electric.png" alt="Lightning Type" class="type">
+			</div>
+			<img src="images/jolteonimg.png" alt="Eevee" class="pokemonimg">
+			<h3>Requirements to evolve</h3>
+			<p class="kaartekst">Jolteon is a quadrupedal, mammalian Pokémon. It evolves from Eevee when exposed to a Thunder Stone. It is one of Eevee's final forms.</p>
+			<h3>Special move</h3>
+			<p class="kaartekst">Jolteon's special ability is Volt Absorb.</p>
+		</div> -->
+
+			<script src="scripts/script.js"></script>
 </body>
-	
+
 </html>
