@@ -61,7 +61,7 @@ button:not([disabled]) {
 #eevee:hover{
   background: linear-gradient(180deg, rgba(201,133,77,1) 0%, rgba(162,85,14,1) 50%, rgba(201,133,77,1) 100%);    
   animation: eeveebg 1.5s linear infinite;
-  background-size: 400% 400%;
+  background-size: 400% 50%;
 
 }
 
@@ -136,7 +136,7 @@ button {
 #vaporeon:hover {
   background: linear-gradient(180deg, rgba(91,208,255,1) 0%, rgba(0,162,227,1) 50%, rgba(91,208,255,1) 100%);    
   animation: eeveebg 1.5s linear infinite;
-  background-size: 400% 400%;
+  background-size: 400% 50%;
 
 }
 
@@ -148,7 +148,7 @@ button {
 #jolteon:hover{
   background: linear-gradient(180deg, rgba(255,236,141,1) 0%, rgba(255,213,0,1) 50%, rgba(255,236,141,1) 100%);  
   animation: eeveebg 1.5s linear infinite;
-  background-size: 400% 400%;
+  background-size: 400% 50%;
 
 }
 
@@ -161,7 +161,7 @@ button {
 #flareon:hover {
   background: linear-gradient(180deg, rgba(255,126,103,1) 0%, rgba(255,71,38,1) 50%, rgba(255,126,103,1) 100%);  
   animation: eeveebg 1.5s linear infinite;
-  background-size: 400% 400%;
+  background-size: 400% 50%;
 
 }
 
@@ -174,7 +174,7 @@ button {
 #umbreon:hover {
   background: linear-gradient(180deg, rgba(106,103,86,1) 0%, rgba(55,54,46,1) 50%, rgba(106,103,86,1) 100%);  
   animation: eeveebg 1.5s linear infinite;
-  background-size: 400% 400%;
+  background-size: 400% 50%;
 }
 
 /* Espeon blok */
@@ -187,7 +187,7 @@ button {
 #espeon:hover {
   background: linear-gradient(180deg, rgba(239,183,241,1) 0%, rgba(197,151,199,1) 50%, rgba(239,183,241,1) 100%); 
   animation: eeveebg 1.5s linear infinite;
-  background-size: 400% 400%;
+  background-size: 400% 50%;
 }
 
 /* Leafeon blok */
@@ -199,7 +199,7 @@ button {
 #leafeon:hover{
   background: linear-gradient(180deg, rgba(155,217,131,1) 0%, rgba(103,168,90,1) 50%, rgba(155,217,131,1) 100%); 
   animation: eeveebg 1.5s linear infinite;
-  background-size: 400% 400%;
+  background-size: 400% 50%;
 }
 
 /* Glaceon blok */
@@ -211,7 +211,7 @@ button {
 #glaceon:hover{
   background: linear-gradient(180deg, rgba(66,249,255,1) 0%, rgba(41,213,219,1) 50%, rgba(66,249,255,1) 100%); 
   animation: eeveebg 1.5s linear infinite;
-  background-size: 400% 400%;
+  background-size: 400% 50%;
 }
 
 /* Sylveon blok */
@@ -223,7 +223,7 @@ button {
 #sylveon:hover{
   background: linear-gradient(180deg, rgba(255,201,214,1) 0%, rgba(255,153,178,1) 50%, rgba(255,201,214,1) 100%);  
   animation: eeveebg 1.5s linear infinite;
-  background-size: 400% 400%;
+  background-size: 400% 50%;
 }
 
 /* Pokemon kaart */
