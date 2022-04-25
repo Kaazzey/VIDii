@@ -18,6 +18,7 @@ html, body {
   --green: #ADE099;
   --iceblue: #8cf4fa;
   --pink: #F4B8C6;
+  --gold: #FFD32D;
   
 }
 
@@ -54,7 +55,6 @@ button:not([disabled]) {
 /* 100% width en height zorgt ervoor dat de breedte van de blokken eerlijk worden verdeeld */
 #eevee {
   width: 100%;
-  height: 100%;
   background-color: var(--brown);
 }
 /* Animatie hover */
@@ -129,7 +129,6 @@ button {
 /* Vaporeon blok */
 #vaporeon {
   width: 100%;
-  /* height: 100%; */
   background-color: var(--blue);
 }
 
@@ -156,7 +155,6 @@ button {
 /* Flareon blok */
 #flareon {
   width: 100%;
-  height: 100%;
   background-color: var(--red);
 }
 
@@ -170,7 +168,6 @@ button {
 /* Umbreon blok */
 #umbreon {
   width: 100%;
-  height: 100%;
   background-color: var(--grey);
 }
 
@@ -196,7 +193,6 @@ button {
 /* Leafeon blok */
 #leafeon {
   width: 100%;
-  height: 100%;
   background-color: var(--green);
 }
 
@@ -209,7 +205,6 @@ button {
 /* Glaceon blok */
 #glaceon {
   width: 100%;
-  height: 100%;
   background-color: var(--iceblue);
 }
 
@@ -222,7 +217,6 @@ button {
 /* Sylveon blok */
 #sylveon {
   width: 100%;
-  height: 100%;
   background-color: var(--pink);
 }
 
@@ -241,7 +235,7 @@ button {
   align-items: flex-start;
   border-width: 8px;
   border-style: solid;
-  border-color: yellow;
+  border-color: var(--gold);
   border-radius: 1rem;
   background-color: white;
   position: absolute;
@@ -268,14 +262,29 @@ button {
   height: 1.4rem;
 }
 
+/* Achtergrond van de eevee kaart */
 .imgbg {
   width: 100%;
-  background-color: rgba(0,0,0,0.1);
+  background: linear-gradient(180deg, rgba(219,219,219,1) 0%, rgba(166,166,166,1) 50%, rgba(219,219,219,1) 100%);  
+  animation: cardbg 2s linear infinite;
+  background-size: 400% 400%;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 0.2rem;
 }
+
+/* Animatie voor de achtergrond van de eevee kaart */
+@keyframes cardbg {
+  0% {
+    background-position: top;
+  }
+ 
+  100% {
+    background-position: bottom;
+  }
+ 
+ }
 
 .pokemonimg {
   
@@ -309,17 +318,16 @@ word-wrap: break-word;
 
 /* Overlay Pokemon kaart https://www.w3schools.com/howto/howto_css_overlay.asp */
 #overlay {
-  position: fixed; /* Sit on top of the page content */
-  display: none; /* Hidden by default */
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
+  position: fixed; /* Staat bovenop de content op de pagina */
+  display: none; /* standaard verstopt */
+  width: 100%; 
+  height: 100%;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255,255,255,0.5); /* White background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
+  background-color: rgba(255,255,255,0.5); /* Witte achtergrond met opacity*/
+  cursor: pointer; /* Voeg een pointer handje toe, zodat het duidelijk is dat je op de overlay kan klikken om hem te sluiten. */
 }
 
 #eeveeKaart {

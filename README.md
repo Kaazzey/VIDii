@@ -79,10 +79,12 @@ Een overlay maken met javascript.
 
   ### Bevinding 4:
 De overlay werkt alleen op de eerste button. (javascript op de button was ook inline...)
-  <img src="readme-images/java1.png" width="375px" alt="eerste versie">
+  <img src="readme-images/java1.png" width="375px" alt="javascript code 1">
 
   #### oplossing:
 Ik heb het werkend weten te krijgen op iedere aparte button. Daarnaast is de inline javascript nu ook weg.
+<img src="readme-images/java2.png" width="375px" alt="javascript code 2">
+<img src="readme-images/java3.png" width="375px" alt="javascript code 3">
 
   ### Bevinding 5:
 Op dit moment is enkel de button onder de staart klikbaar, maar de staart zelf nog niet.
@@ -120,7 +122,23 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
 
 
   ### Bevinding 3:
-  ...
+  De buttons hebben nog geen active state.
+
+  #### oplossing:
+  Ik ga een active state toevoegen aan de buttons.
+
+  ### Bevinding 4:
+  De buttons hebben nog geen hover state, de balk en staart wel.
+
+  #### oplossing:
+  Ik wil een hover state met kleurverloop aan de button toevoegen.
+
+  ### Bevinding 4:
+  De namen van classes, ID's en variabelen is niet geheel consistent. Ik switch soms tussen engels/nederlands.
+    <img src="readme-images/naamgeving1.png" width="375px" alt="Naamgeving in engels en nederlands.">
+
+  #### oplossing:
+  Ik ga de naamgeving aanpassen naar 1 taal. 
 
 </details>
 
@@ -194,5 +212,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 5. bron 5: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 6. bron 6: https://www.w3schools.com/js/js_functions.asp
 7. bron 7: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+8. bron 8: https://cssgradient.io/
 
 </details>
