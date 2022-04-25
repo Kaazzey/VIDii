@@ -39,7 +39,7 @@ Mijn startniveau is: blauw
   Aan deze technieken/punten wil ik werken:
   - punt 1: Ik wil d.m.v. keyframes de staartjes laten wiebelen als je er overheen hovered.
   - punt 2: Ik wil het ontwerp schaalbaar maken.
-  - nog een punt
+  - Punt 3: Ik wil een overlay maken waar je de pokemon kaart met verdere info over de eeveelutions ziet.
   - ...
  
 </details>
@@ -105,15 +105,17 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
 
   #### oplossing:
   Ik heb het nagevraagd aan een medestudent en begrijp nu wel hoe het werkt. Dit heb ik gelijk toegepast in mijn code:
-  <img src="readme-images/ontwerp3.png" width="375px" alt="eerste versie">
+  <img src="readme-images/customproperties.png" width="375px" alt="Screenshot custom properties binnen code.">
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De staart wiggled enkel als je over de staart zelf hovered. Het zou leuk zijn als de staart wiggled als je over de balk hovered.
+  <img src="readme-images/wiggle1.png" width="375px" alt="Staart wiggled als je op de staart hovered.">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik wil dit oplossen door de animatie in het blok te zetten, waardoor de wiggle animatie getriggered wordt, zodra je over het blok hovered.
+  <img src="readme-images/wiggle2.png" width="375px" alt="Staart wiggled als je op de balk hovered.">
 
 
 
