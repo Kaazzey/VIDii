@@ -28,8 +28,8 @@ Mijn startniveau is: blauw
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/schets1.png" width="375px" alt="eerste schets">
-  <img src="readme-images/schets2.png" width="375px" alt="eerste schets">
+  <img src="readme-images/1schets.png" width="375px" alt="eerste schets">
+  <img src="readme-images/2schets.png" width="375px" alt="eerste schets">
   <img src="readme-images/ontwerp1.png" width="375px" alt="eerste versie">
   <img src="readme-images/ontwerp2.png" width="375px" alt="eerste versie">
 
@@ -68,12 +68,14 @@ De benodigdheden om eevee te evolueren weergeven in de interface. Dit wil ik doe
   #### oplossing:
 Ik zit er aan te denken een button te maken onder de interface waarmee je kan kiezen naar welke eevee je wilt evolueren.
 
+
   ### Bevinding 3:
   Ik wil pokemon kaarten tonen met meer info over de eeveelution. Zoals ik dat in mijn schetsen/1e ontwerp in adobe xd voor ogen zie. Echter staat er beschreven dat er maar één pagina gerealiseerd mag worden en zal ik dus moeten werken met een overlay.
   <img src="readme-images/ontwerp3.png" width="375px" alt="eerste versie">
 
   #### oplossing:
 Een overlay maken met javascript.
+
 
   ### Bevinding 4:
 De overlay werkt alleen op de eerste button. (javascript op de button was ook inline...)
@@ -99,10 +101,11 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik heb nog geen custom properties gebruikt, omdat ik ze niet geheel begreep.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb het nagevraagd aan een medestudent en begrijp nu wel hoe het werkt. Dit heb ik gelijk toegepast in mijn code:
+  <img src="readme-images/ontwerp3.png" width="375px" alt="eerste versie">
 
 
 
@@ -188,5 +191,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 4. bron 4: JS Overlay https://www.w3schools.com/howto/howto_css_overlay.asp
 5. bron 5: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 6. bron 6: https://www.w3schools.com/js/js_functions.asp
+7. bron 7: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
 
 </details>
