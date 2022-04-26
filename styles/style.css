@@ -20,6 +20,7 @@ html, body {
   --pink: #F4B8C6;
   --gold: #FFD32D;
   --white: #f1f0e2;
+  --purewhite: #FFFFFF;
 }
 
 button:not([disabled]) {
@@ -147,6 +148,7 @@ button:focus {
   color:white;
   background-color: rgba(0,0,0,0.2);
   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+  box-shadow: var(--purewhite) 0px 1px 4px, var(--purewhite) 0px 0px 0px 3px;
 }
 
 /* Vaporeon blok */
