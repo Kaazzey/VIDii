@@ -49,7 +49,7 @@ Mijn startniveau is: blauw
 
 ## Voortgang/Feedback 1
 
-<details>
+<details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
@@ -102,7 +102,7 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
 
 ## Voortgang/Feedback 2
 
-<details>
+<details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
@@ -153,7 +153,7 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
 
 ## Voortgang/Feedback 3
 
-<details>
+<details open>
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
@@ -213,7 +213,7 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
 
 ## Reflectie
 
-<details>
+<details open>
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
