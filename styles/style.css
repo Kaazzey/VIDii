@@ -104,11 +104,11 @@ button:not([disabled]) {
   }
 
   20% {
-    transform: rotate(20deg);
+    transform: rotate(15deg);
   }
 
   60% {
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
   }
 
   100% {
@@ -415,7 +415,7 @@ button:focus {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
-  /* Witte achtergrond met opacity*/
+  /* Zwarte achtergrond met opacity*/
   cursor: pointer;
   /* Voeg een pointer handje toe, zodat het duidelijk is dat je op de overlay kan klikken om hem te sluiten. */
   animation: overlayReveal 1s forwards;

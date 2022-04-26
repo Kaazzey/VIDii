@@ -131,7 +131,7 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
   De buttons hebben nog geen hover state, de balk en staart wel.
 
   #### oplossing:
-  Ik wil een hover state met kleurverloop aan de button toevoegen.
+  Ik wil een hover state aan de button toevoegen.
 
   ### Bevinding 4:
   De namen van classes, ID's en variabelen is niet geheel consistent. Ik switch soms tussen engels/nederlands.
