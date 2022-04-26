@@ -19,14 +19,13 @@ html, body {
   --iceblue: #8cf4fa;
   --pink: #F4B8C6;
   --gold: #FFD32D;
-  
+  --white: #f1f0e2;
 }
 
 button:not([disabled]) {
   cursor:pointer;
 }
 
-/* jouw CSS vanaf hier */
 
 /* Blok met alle Eeve stroken er in, is altijd zo groot als de browser */
 #groep {
@@ -62,9 +61,26 @@ button:not([disabled]) {
   background: linear-gradient(180deg, rgba(201,133,77,1) 0%, rgba(162,85,14,1) 50%, rgba(201,133,77,1) 100%);    
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
-
 }
 
+#eevee:hover button {
+  animation: btnReveal 0.6s forwards;
+}
+
+@keyframes btnReveal {
+  0% {
+    transform: translateY(80%);
+  }
+  
+  100% {
+    color:white;
+    background-color: rgba(0,0,0,0.2);
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    transform: translateY(0%);
+  }
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-position-y */
 @keyframes eeveebg {
  0% {
    background-position: top;
@@ -107,24 +123,31 @@ button:not([disabled]) {
 /* knop opmaak */
 button {
     display:inline-block;
-    padding:0.3em 1.2em;
-    margin:0 0.1em 0.1em 0;
-    background-color: #C9854D;
-    border:0.16em solid rgba(233, 189, 139, 0);
+    padding: 0.3em 1.2em;
+    margin: 1rem 0.1em 0.1em 0;
+    background-color: rgba(0,0,0,0.2);
     border-radius:2em;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-weight:bold;
-    color:white;
-    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
     text-align:center;
     transition: all 0.2s;
-    }
-    /* hover button idk i need this!!!!!!*/
-    .button4:hover {
-    border-color: rgba(255,255,255,1);
-    }
+    color:transparent;
+    background-color: transparent;
+    border:none;
+    outline:none;     
+  }
 
+button:hover {
+  background-color: rgba(0,0,0,0.8);
+  transition: 0.6s;
+}
+
+button:focus {
+  color:white;
+  background-color: rgba(0,0,0,0.2);
+  text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+}
 
 /* Vaporeon blok */
 #vaporeon {
@@ -137,7 +160,10 @@ button {
   background: linear-gradient(180deg, rgba(91,208,255,1) 0%, rgba(0,162,227,1) 50%, rgba(91,208,255,1) 100%);    
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
+}
 
+#vaporeon:hover button {
+  animation: btnReveal 0.6s forwards;
 }
 
 /* Jolton blok */
@@ -145,11 +171,15 @@ button {
   width: 100%;
   background-color: var(--yellow);
 }
+
 #jolteon:hover{
   background: linear-gradient(180deg, rgba(255,236,141,1) 0%, rgba(255,213,0,1) 50%, rgba(255,236,141,1) 100%);  
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
+}
 
+#jolteon:hover button {
+  animation: btnReveal 0.6s forwards;
 }
 
 /* Flareon blok */
@@ -162,7 +192,10 @@ button {
   background: linear-gradient(180deg, rgba(255,126,103,1) 0%, rgba(255,71,38,1) 50%, rgba(255,126,103,1) 100%);  
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
+}
 
+#flareon:hover button {
+  animation: btnReveal 0.6s forwards;
 }
 
 /* Umbreon blok */
@@ -175,6 +208,10 @@ button {
   background: linear-gradient(180deg, rgba(106,103,86,1) 0%, rgba(55,54,46,1) 50%, rgba(106,103,86,1) 100%);  
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
+}
+
+#umbreon:hover button {
+  animation: btnReveal 0.6s forwards;
 }
 
 /* Espeon blok */
@@ -190,6 +227,10 @@ button {
   background-size: 400% 50%;
 }
 
+#espeon:hover button {
+  animation: btnReveal 0.6s forwards;
+}
+
 /* Leafeon blok */
 #leafeon {
   width: 100%;
@@ -200,6 +241,10 @@ button {
   background: linear-gradient(180deg, rgba(155,217,131,1) 0%, rgba(103,168,90,1) 50%, rgba(155,217,131,1) 100%); 
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
+}
+
+#leafeon:hover button {
+  animation: btnReveal 0.6s forwards;
 }
 
 /* Glaceon blok */
@@ -214,6 +259,10 @@ button {
   background-size: 400% 50%;
 }
 
+#glaceon:hover button {
+  animation: btnReveal 0.6s forwards;
+}
+
 /* Sylveon blok */
 #sylveon {
   width: 100%;
@@ -224,6 +273,10 @@ button {
   background: linear-gradient(180deg, rgba(255,201,214,1) 0%, rgba(255,153,178,1) 50%, rgba(255,201,214,1) 100%);  
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
+}
+
+#sylveon:hover button {
+  animation: btnReveal 0.6s forwards;
 }
 
 /* Pokemon kaart */
@@ -237,7 +290,7 @@ button {
   border-style: solid;
   border-color: var(--gold);
   border-radius: 1rem;
-  background-color: white;
+  background-color: var(--white);
   position: absolute;
   left: 0;
   right: 0;
@@ -287,9 +340,7 @@ button {
  }
 
 .pokemonimg {
-  
   height: 12rem;
-  
   padding: 1rem 0rem;
 }
 
@@ -297,9 +348,8 @@ button {
 font-size: 0.5rem;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
-padding-right: 26em; 
 word-wrap: break-word;
-
+flex-grow: 2;
 }
 .kaart h2, h3 {
   font-size: 1rem;
@@ -308,6 +358,15 @@ word-wrap: break-word;
   line-height: 50%; 
   word-wrap: break-word;
   padding-right: 2%;
+}
+
+.kaart h3 {
+  padding-top: 0.8rem;
+}
+
+.kaart p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 0.2rem;
 }
 
 /* https://www.w3schools.com/cssref/css3_pr_word-wrap.asp */
@@ -326,42 +385,83 @@ word-wrap: break-word;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255,255,255,0.5); /* Witte achtergrond met opacity*/
+  background-color: rgba(0,0,0,0.7); /* Witte achtergrond met opacity*/
   cursor: pointer; /* Voeg een pointer handje toe, zodat het duidelijk is dat je op de overlay kan klikken om hem te sluiten. */
+  animation: overlayReveal 1s forwards;
+
 }
 
 #eeveeKaart {
   display: none;
+  animation: cardReveal 0.6s forwards;
 }
 
 #vaporeonKaart {
   display: none;
+  animation: cardReveal 0.6s forwards;
+
 }
 
 #jolteonKaart {
   display: none;
+  animation: cardReveal 0.6s forwards;
+
 }
 
 #flareonKaart {
   display: none;
+  animation: cardReveal 0.6s forwards;
+
 }
 
 #umbreonKaart {
   display: none;
+  animation: cardReveal 0.6s forwards;
+
 }
 
 #espeonKaart {
   display: none;
+  animation: cardReveal 0.6s forwards;
+
 }
 
 #leafeonKaart {
   display: none;
+  animation: cardReveal 0.6s forwards;
+
 }
 
 #glaceonKaart {
   display: none;
+  animation: cardReveal 0.6s forwards;
+
 }
 
 #sylveonKaart {
   display: none;
+  animation: cardReveal 0.6s forwards;
+
+}
+
+@keyframes cardReveal {
+  0% {
+    opacity: 0%;
+    transform: translateY(10%);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes overlayReveal {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
