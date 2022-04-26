@@ -140,7 +140,7 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
 
 
 
-  ### Bevinding 4:
+  ### Bevinding 5:
   De namen van classes, ID's en variabelen is niet geheel consistent. Ik switch soms tussen engels/nederlands.
     <img src="readme-images/naamgeving1.png" width="375px" alt="Naamgeving in engels en nederlands.">
 
