@@ -8,6 +8,7 @@ html, body {
   margin: 0;
 }
 
+/* custom properties */
 :root {
   --brown: #D3AE8C;
   --blue: #84dcff;
@@ -28,7 +29,7 @@ button:not([disabled]) {
 }
 
 
-/* Blok met alle Eeve stroken er in, is altijd zo groot als de browser */
+/* Blok met alle Eevee stroken er in, is altijd zo groot als de browser */
 #groep {
   display: flex;
   flex-direction: row;
@@ -69,13 +70,14 @@ button:not([disabled]) {
   animation: btnReveal 0.6s forwards;
 }
 
+/* animatie voor de button met hover */
 @keyframes btnReveal {
   0% {
     transform: translateY(80%);
   }
 
   100% {
-    color: white;
+    color: var(--purewhite);
     background-color: rgba(0, 0, 0, 0.2);
     text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
     transform: translateY(0%);
@@ -141,13 +143,15 @@ button {
   outline: none;
 }
 
+/* opmaak knop hover state */
 button:hover {
   background-color: rgba(0, 0, 0, 0.8);
   transition: 0.6s;
 }
 
+/* opmaak knop focus state */
 button:focus {
-  color: white;
+  color: var(--purewhite);
   background-color: rgba(0, 0, 0, 0.2);
   text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
   box-shadow: var(--purewhite) 0px 1px 4px, var(--purewhite) 0px 0px 0px 3px;
@@ -166,6 +170,7 @@ button:focus {
   background-size: 400% 50%;
 }
 
+/* Vaporeon animatie button hover */
 #vaporeon:hover button {
   animation: btnReveal 0.6s forwards;
 }
@@ -176,12 +181,14 @@ button:focus {
   background-color: var(--yellow);
 }
 
+/* Jolteon blok hover state met gradient */
 #jolteon:hover {
   background: linear-gradient(180deg, rgba(255, 236, 141, 1) 0%, rgba(255, 213, 0, 1) 50%, rgba(255, 236, 141, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
+/* Jolteon animatie button hover */
 #jolteon:hover button {
   animation: btnReveal 0.6s forwards;
 }
@@ -192,12 +199,14 @@ button:focus {
   background-color: var(--red);
 }
 
+/* Flareon blok hover state met gradient */
 #flareon:hover {
   background: linear-gradient(180deg, rgba(255, 126, 103, 1) 0%, rgba(255, 71, 38, 1) 50%, rgba(255, 126, 103, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
+/* Flareon animatie button hover */
 #flareon:hover button {
   animation: btnReveal 0.6s forwards;
 }
@@ -208,12 +217,14 @@ button:focus {
   background-color: var(--grey);
 }
 
+/* Umbreon  blok hover state met gradient */
 #umbreon:hover {
   background: linear-gradient(180deg, rgba(106, 103, 86, 1) 0%, rgba(55, 54, 46, 1) 50%, rgba(106, 103, 86, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
+/* Umbreon animatie button hover */
 #umbreon:hover button {
   animation: btnReveal 0.6s forwards;
 }
@@ -225,12 +236,14 @@ button:focus {
   background-color: var(--purple);
 }
 
+/* Espeon blok hover state met gradient */
 #espeon:hover {
   background: linear-gradient(180deg, rgba(239, 183, 241, 1) 0%, rgba(197, 151, 199, 1) 50%, rgba(239, 183, 241, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
+/* Espeon animatie button hover */
 #espeon:hover button {
   animation: btnReveal 0.6s forwards;
 }
@@ -241,12 +254,14 @@ button:focus {
   background-color: var(--green);
 }
 
+/* Leafeon blok hover state met gradient */
 #leafeon:hover {
   background: linear-gradient(180deg, rgba(155, 217, 131, 1) 0%, rgba(103, 168, 90, 1) 50%, rgba(155, 217, 131, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
+/* Leafeon animatie button hover */
 #leafeon:hover button {
   animation: btnReveal 0.6s forwards;
 }
@@ -257,12 +272,14 @@ button:focus {
   background-color: var(--iceblue);
 }
 
+/* Glaceon blok hover state met gradient */
 #glaceon:hover {
   background: linear-gradient(180deg, rgba(66, 249, 255, 1) 0%, rgba(41, 213, 219, 1) 50%, rgba(66, 249, 255, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
+/* Glaceon animatie button hover */
 #glaceon:hover button {
   animation: btnReveal 0.6s forwards;
 }
@@ -273,12 +290,14 @@ button:focus {
   background-color: var(--pink);
 }
 
+/* Sylveon blok hover state met gradient */
 #sylveon:hover {
   background: linear-gradient(180deg, rgba(255, 201, 214, 1) 0%, rgba(255, 153, 178, 1) 50%, rgba(255, 201, 214, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
+/* Sylveon animatie button hover */
 #sylveon:hover button {
   animation: btnReveal 0.6s forwards;
 }
@@ -290,10 +309,10 @@ button:focus {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  border-width: 8px;
+  border-width: 0.6em;
   border-style: solid;
   border-color: var(--gold);
-  border-radius: 1rem;
+  border-radius: 1em;
   background-color: var(--white);
   position: absolute;
   left: 0;
@@ -306,6 +325,7 @@ button:focus {
   padding: 0rem 0.4rem 0.2rem 0.4rem;
 }
 
+/* styling naam binnen de kaart */
 .naam {
   display: flex;
   flex-direction: row;
@@ -314,6 +334,7 @@ button:focus {
   width: 100%;
 }
 
+/* styling energy type */
 .naam img {
   width: 1.4rem;
   height: 1.4rem;
@@ -343,6 +364,7 @@ button:focus {
 
 }
 
+/* Image binnen de pokemon kaart */
 .pokemonimg {
   height: 12rem;
   padding: 1rem 0rem;

@@ -70,7 +70,7 @@ Ik zit er aan te denken een button te maken onder de interface waarmee je kan ki
 
 
   ### Bevinding 3:
-  Ik wil pokemon kaarten tonen met meer info over de eeveelution. Zoals ik dat in mijn schetsen/1e ontwerp in adobe xd voor ogen zie. Echter staat er beschreven dat er maar één pagina gerealiseerd mag worden en zal ik dus moeten werken met een overlay.
+  Ik wil pokemon kaarten tonen met meer info over de eeveelution. Zoals ik dat in mijn schetsen/1e ontwerp in adobe xd voor ogen zie. Echter staat er beschreven dat er maar één pagina gerealiseerd mag worden en zal ik dus moeten werken met een overlay. <br>
   <img src="readme-images/ontwerp3.png" width="375px" alt="eerste versie">
 
   #### oplossing:
@@ -106,26 +106,26 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
   Ik heb nog geen custom properties gebruikt, omdat ik ze niet geheel begreep.
 
   #### oplossing:
-  Ik heb het nagevraagd aan een medestudent en begrijp nu wel hoe het werkt. Dit heb ik gelijk toegepast in mijn code:
+  Ik heb het nagevraagd aan een medestudent en begrijp nu wel hoe het werkt. Dit heb ik gelijk toegepast in mijn code: <br>
   <img src="readme-images/customproperties.png" width="375px" alt="Screenshot custom properties binnen code.">
 
 
 
   ### Bevinding 2:
-  De staart wiggled enkel als je over de staart zelf hovered. Het zou leuk zijn als de staart wiggled als je over de balk hovered.
+  De staart wiggled enkel als je over de staart zelf hovered. Het zou leuk zijn als de staart wiggled als je over de balk hovered. <br>
   <img src="readme-images/wiggle1.png" width="375px" alt="Staart wiggled als je op de staart hovered.">
 
   #### oplossing:
-  Ik wil dit oplossen door de animatie in het blok te zetten, waardoor de wiggle animatie getriggered wordt, zodra je over het blok hovered.
+  Ik wil dit oplossen door de animatie in het blok te zetten, waardoor de wiggle animatie getriggered wordt, zodra je over het blok hovered. <br>
   <img src="readme-images/wiggle2.png" width="375px" alt="Staart wiggled als je op de balk hovered.">
 
 
 
   ### Bevinding 3:
-  De buttons hebben nog geen active state.
+  De buttons hebben nog geen focus state.
 
   #### oplossing:
-  Ik ga een active state toevoegen aan de buttons.
+  Ik ga een focus state toevoegen aan de buttons.
 
   ### Bevinding 4:
   De buttons hebben nog geen hover state, de balk en staart wel.
@@ -162,16 +162,25 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
 
 
   ### Bevinding 2:
-  De witte rand om de Eevee staarten mag nog wel iets dikker, zodat deze meer matched met de box-shadow van de focus state van de knoppen.
-    <img src="readme-images/witterand.png" width="375px" alt="Witte rand rondom de eeveestaarten">
+  De witte rand om de Eevee staarten mag nog wel iets dikker, zodat deze meer matched met de box-shadow van de focus state van de knoppen. <br>
+    <img src="readme-images/rand1.png" width="375px" alt="Witte rand rondom de eeveestaarten">
 
   #### oplossing:
-  Ik ga deze omlijning van de staarten dikker maken in Photoshop.
+  Ik ga deze omlijning van de staarten dikker maken in Photoshop. <br>
+      <img src="readme-images/rand2.png" width="375px" alt="Witte rand rondom de eeveestaarten">
+
 
 
 
   ### Bevinding 3:
-  ...
+  De staarten zijn niet allemaal even groot. Dit omdat ik ze zelf heb getekend op mijn iPad met ProCreate. Sommige zijn hoger dan de anderen en het ziet er slordig uit. <br>
+      <img src="readme-images/size1.png" width="375px" alt="De grootte van de eeveestaarten">
+
+
+  #### oplossing:
+  Ik ga alle staart afbeeldingen even groot scalen binnen photoshop. <br>
+        <img src="readme-images/size2.png" width="375px" alt="De grootte van de eeveestaarten">
+
 
 </details>
 
