@@ -157,11 +157,11 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Als feedback heb ik gekregen dat het niet semantisch was om geen focus state om de buttons heen te hebben.
+  Als feedback heb ik gekregen dat het niet semantisch was om geen focus state om de buttons heen te hebben. <br>
   <img src="readme-images/focus1.png" width="375px" alt="Geen focus state">
 
   #### oplossing:
-  Ik heb dit opgelost door een box shadow op de focus state van de button te stylen. Specifiek een witte rand, aangezien dit matched met de witte rand om de eevee staarten.
+  Ik heb dit opgelost door een box shadow op de focus state van de button te stylen. Specifiek een witte rand, aangezien dit matched met de witte rand om de eevee staarten. <br>
   <img src="readme-images/focus2.png" width="375px" alt="Wel focus state">
 
 
@@ -201,7 +201,7 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
 
 
   #### oplossing:
-  Ik heb de rotate degrees van de keyframe iets kleiner gemaakt, waardoor de staarten nu binnen het vlak blijven, zelfs als je de pagina iets kleiner scaled.
+  Ik heb de rotate degrees van de keyframe iets kleiner gemaakt, waardoor de staarten nu binnen het vlak blijven, zelfs als je de pagina iets kleiner scaled. <br>
    <img src="readme-images/wiggle3.png" width="375px" alt="Staart wiggled minder breed.">
 
 
@@ -217,7 +217,6 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
   Ik heb gekozen een interface te maken waar alle Eeveelutions in worden toegelicht. Zo heb je de balken, die de energie van de desbetreffende eeveelution door zich hebben stromen, zodra je over een balk hovered. Ook zal de staart van de eeveelution enthousiast gaan kwispelen. De Eeveelution is bij wijze van spreken enthousiast dat je misschien wel voor hem of haar kiest. Zodra je over de balk hovered, komt er ook een button met de naam van de Eeveelution naarvoren. Zo weet je dus hoe de Eeveelution heet, die bij de staart hoort van die balk. <br>
      <img src="readme-images/reflectie1.png" width="375px" alt="Balk met een kwispelende staart en het energie type van de Eeveelution dat door de balk stroomt"> <br>
   Zodra je op een knop klikt en dus een Eeveelution heb uitgekozen, wordt er meer informatie getoont over die specifieke Eeveelution, in de vorm van een Pokémon kaart. Hierop is te zien wat voor type Pokémon de Eeveelution is, d.m.v. het kopje links bovenin en het energytype-icoon rechtsbovenin. Vervolgens zie je de gekozen Eeveelution als gifje staan, waar normaliter de foto van de Pokémon op de Pokémonkaart zichtbaar is. <br>
@@ -234,18 +233,16 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
   Ik had enorme angst voor dit vak, aangezien ik niet heel comfortabel ben met coderen. Echter merk ik wel telkens weer, dat zodra de HTML staat, ik bij wijze van spreken een "fieldday" heb met het opmaken hiervan binnen CSS. In het begin is het enorm veel googlen en aan medestudenten vragen, maar naarmate ik verder kom, krijg ik meer motivatie om me nog verder te verdiepen en dus nog meer "los te gaan" met CSS. Nou blijf ik erbij dat mijn niveau nog steeds blauwe piste is, al had ik soms het gevoel dat ik bijna in de buurt kwam van rood. Of dit ook werkelijk zo was, dat weet ik niet. Maar al met al ben ik zeer tevreden met mijn resultaat. Zeker gezien het feit, dat ik dag 1 ervan overtuigd was, helemaal geen code meer te kunnen. Maar zoals snel duidelijk werd, leer je enkel door te doen en dat te blijven herhalen. 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
   Ik heb geleerd te animeren met keyframes. Ik dacht hiervoor dat je dit enkel kon doen m.b.v. javascript, maar dit was totaal niet het geval. Ik heb veel animaties in mijn interface toegepast, juist omdat ik keyframes nu pas echt begrijp en het dus veel wilde gebruiken, omdat ik het leuk
 
   <img src="readme-images/reflectie6.png" width="375px" alt="Een voorbeeld van keyframes, in dit geval voor de Pokéball animatie.">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
   Ik heb het niet voor elkaar gekregen om de staarten en/of de balk ook klikbaar te maken. Telkens als ik dit probeerde sloopte ik bij wijze van spreken mijn ontwerp. Ik heb er dan ook voor gekozen om het te laten hoe het is. Achteraf gezien heeft de losse button met animatie anders ook vrij weinig toe te voegen, alhoewel ik deze wel bewust heb ontworpen, zodat de naam van de bijbehorende staart duidelijk werd.
 
-  <img src="readme-images/klik1.png" width="375px" alt="Balk is niet klikbaar">
-  <img src="readme-images/klik2.png" width="35px" alt="Staart is niet klikbaar">
+  <img src="readme-images/klik1.png" width="375px" alt="Balk is niet klikbaar"> <br>
+  <img src="readme-images/klik2.png" width="35px" alt="Staart is niet klikbaar"> <br>
   <img src="readme-images/klik3.png" width="375px" alt="Button is wel klikbaar">
 </details>
 
