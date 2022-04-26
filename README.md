@@ -242,7 +242,7 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
   Ik heb het niet voor elkaar gekregen om de staarten en/of de balk ook klikbaar te maken. Telkens als ik dit probeerde sloopte ik bij wijze van spreken mijn ontwerp. Ik heb er dan ook voor gekozen om het te laten hoe het is. Achteraf gezien heeft de losse button met animatie anders ook vrij weinig toe te voegen, alhoewel ik deze wel bewust heb ontworpen, zodat de naam van de bijbehorende staart duidelijk werd.
 
   <img src="readme-images/klik1.png" width="375px" alt="Balk is niet klikbaar"> <br>
-  <img src="readme-images/klik2.png" width="35px" alt="Staart is niet klikbaar"> <br>
+  <img src="readme-images/klik2.png" width="375px" alt="Staart is niet klikbaar"> <br>
   <img src="readme-images/klik3.png" width="375px" alt="Button is wel klikbaar">
 </details>
 
