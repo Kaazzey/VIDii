@@ -66,11 +66,11 @@ button:not([disabled]) {
   background-size: 400% 50%;
 }
 
+/* animatie voor de button met hover */
 #eevee:hover button {
   animation: btnReveal 0.6s forwards;
 }
 
-/* animatie voor de button met hover */
 @keyframes btnReveal {
   0% {
     transform: translateY(80%);
@@ -129,7 +129,7 @@ button:not([disabled]) {
 button {
   display: inline-block;
   padding: 0.3em 1.2em;
-  margin: 1rem 0.1em 0.1em 0;
+  margin: 1em 0.1em 0.1em 0;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 2em;
   box-sizing: border-box;
@@ -322,7 +322,7 @@ button:focus {
   z-index: 1;
   width: 22em;
   height: 35em;
-  padding: 0rem 0.4rem 0.2rem 0.4rem;
+  padding: 0em 0.4em 0.2em 0.4em;
 }
 
 /* styling naam binnen de kaart */
@@ -336,8 +336,8 @@ button:focus {
 
 /* styling energy type */
 .naam img {
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 1.4em;
+  height: 1.4em;
 }
 
 /* Achtergrond van de eevee kaart */
@@ -349,7 +349,7 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 0.2rem;
+  border-radius: 0.2em;
 }
 
 /* Animatie voor de achtergrond van de eevee kaart */
@@ -366,12 +366,13 @@ button:focus {
 
 /* Image binnen de pokemon kaart */
 .pokemonimg {
-  height: 12rem;
-  padding: 1rem 0rem;
+  height: 12em;
+  padding: 1em 0em;
 }
 
+/* Kaart titels en teksten */
 .kaart h1 {
-  font-size: 0.5rem;
+  font-size: 0.5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   word-wrap: break-word;
@@ -379,7 +380,7 @@ button:focus {
 }
 
 .kaart h2, h3 {
-  font-size: 1rem;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   line-height: 50%;
@@ -388,21 +389,23 @@ button:focus {
 }
 
 .kaart h3 {
-  padding-top: 0.8rem;
+  padding-top: 0.8em;
 }
 
 .kaart p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-bottom: 0.2rem;
+  padding-bottom: 0.2em;
 }
 
+/* Word-wrap zorgt ervoor dat de tekst binnen de kaart blijft */
 /* https://www.w3schools.com/cssref/css3_pr_word-wrap.asp */
 .kaartekst {
   width: 100%;
   word-wrap: break-word;
 }
 
-/* Overlay Pokemon kaart https://www.w3schools.com/howto/howto_css_overlay.asp */
+/* Overlay Pokemon kaart */
+/* https://www.w3schools.com/howto/howto_css_overlay.asp */
 #overlay {
   position: fixed;
   /* Staat bovenop de content op de pagina */
@@ -414,14 +417,23 @@ button:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  /* Zwarte achtergrond met opacity*/
-  cursor: pointer;
-  /* Voeg een pointer handje toe, zodat het duidelijk is dat je op de overlay kan klikken om hem te sluiten. */
-  animation: overlayReveal 1s forwards;
-
+  background-color: rgba(0, 0, 0, 0.7); /* Zwarte achtergrond met opacity*/
+  cursor: pointer; /* Voeg een pointer handje toe, zodat het duidelijk is dat je op de overlay kan klikken om hem te sluiten. */
+  animation: overlayReveal 1s forwards; /* Overlay komt in beeld animatie*/
 }
 
+/* Animatie Overlay achtergrond in beeld*/
+@keyframes overlayReveal {
+  0% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
+/* Pokemon kaarten */
 #eeveeKaart {
   display: none;
   animation: cardReveal 0.6s forwards;
@@ -430,51 +442,44 @@ button:focus {
 #vaporeonKaart {
   display: none;
   animation: cardReveal 0.6s forwards;
-
 }
 
 #jolteonKaart {
   display: none;
   animation: cardReveal 0.6s forwards;
-
 }
 
 #flareonKaart {
   display: none;
   animation: cardReveal 0.6s forwards;
-
 }
 
 #umbreonKaart {
   display: none;
   animation: cardReveal 0.6s forwards;
-
 }
 
 #espeonKaart {
   display: none;
   animation: cardReveal 0.6s forwards;
-
 }
 
 #leafeonKaart {
   display: none;
   animation: cardReveal 0.6s forwards;
-
 }
 
 #glaceonKaart {
   display: none;
   animation: cardReveal 0.6s forwards;
-
 }
 
 #sylveonKaart {
   display: none;
   animation: cardReveal 0.6s forwards;
-
 }
 
+/* Animatie Kaart in beeld*/
 @keyframes cardReveal {
   0% {
     opacity: 0%;
@@ -487,12 +492,54 @@ button:focus {
   }
 }
 
-@keyframes overlayReveal {
+/* Easter egg pijl */
+#arrow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10em;
+  height: 8em;
+}
+
+#arrow img{
+  width: 5em;
+}
+
+/* Pokeball easter egg */
+#pokeball {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 5em;
+  height: 10em;
+  z-index: 2;
+}
+
+#pokeball img {
+  width: 4em;
+  height: 4em;
+  opacity: 0%;
+}
+
+#pokeball:hover img {
+  animation: throwPokeball 1s;
+  transition-timing-function: ease-in;
+}
+
+/* Animatie Pokeball easter egg */
+@keyframes throwPokeball {
   0% {
-    opacity: 0%;
+    transform: translateY(300%) rotate(0deg);
+    opacity: 100%;
+  }
+
+  40% {
+    transform: translateY(0%) rotate(180deg);
+    opacity: 100%;
   }
 
   100% {
+    transform: translateY(300%) rotate(360deg);
     opacity: 100%;
   }
 }

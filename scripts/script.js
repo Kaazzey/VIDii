@@ -4,6 +4,7 @@ console.log("Howdy!");
 // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 // https://www.w3schools.com/js/js_functions.asp
 
+// Variables die de buttons aanspreken
 var btnEevee = document.getElementById('btnEevee');
 btnEevee.addEventListener("click",showOverlayEevee);
 
@@ -34,6 +35,7 @@ btnSylveon.addEventListener("click",showOverlaySylveon);
 var overlay = document.getElementById('overlay');
 overlay.addEventListener("click",hideOverlay);
 
+// Functies die de kaart en bijbehorende kaart laten zien zodra er op de button is geklikt
 function showOverlayEevee() {
     document.getElementById("overlay").style.display = "block";
     document.getElementById("eeveeKaart").style.display = "block";
@@ -79,7 +81,7 @@ function showOverlaySylveon() {
     document.getElementById("sylveonKaart").style.display = "block";
 }
 
-
+// Overlay en kaart verdwijnen zodra er op het scherm wordt geklikt
 function hideOverlay() {
     document.getElementById("overlay").style.display = "none";
     document.getElementById("eeveeKaart").style.display = "none";
