@@ -151,17 +151,22 @@ Ik wil dit oplossen door de staart te veranderen in een button, waardoor de butt
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Als feedback heb ik gekregen dat het niet functioneel was om geen focus state om de buttons heen te hebben.
+  <img src="readme-images/focus1.png" width="375px" alt="Geen focus state">
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb dit opgelost door een box shadow op de focus state van de button te stylen. Specifiek een witte rand, aangezien dit matched met de witte rand om de eevee staarten.
+  <img src="readme-images/focus2.png" width="375px" alt="Wel focus state">
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  De witte rand om de Eevee staarten mag nog wel iets dikker, zodat deze meer matched met de box-shadow van de focus state van de knoppen.
+    <img src="readme-images/witterand.png" width="375px" alt="Witte rand rondom de eeveestaarten">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik ga deze omlijning van de staarten dikker maken in Photoshop.
 
 
 
@@ -209,9 +214,10 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 2. bron 2: Flexbox https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. bron 3: CSS Animaties https://css-tricks.com/almanac/properties/a/animation/
 4. bron 4: JS Overlay https://www.w3schools.com/howto/howto_css_overlay.asp
-5. bron 5: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-6. bron 6: https://www.w3schools.com/js/js_functions.asp
-7. bron 7: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
-8. bron 8: https://cssgradient.io/
-
+5. bron 5: Javascript event listener https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+6. bron 6: Javascript functions https://www.w3schools.com/js/js_functions.asp
+7. bron 7: Transform CSS https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+8. bron 8: Gradient https://cssgradient.io/
+9. bron 9: CSS Background position https://developer.mozilla.org/en-US/docs/Web/CSS/background-position-y
+10. bron 10: Pokemon energy types https://imgur.com/a/jEwm0#HNv9RZi
 </details>
