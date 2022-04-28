@@ -277,4 +277,5 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 18. bron 18: Glaceon informatie en gif https://pokemon.fandom.com/wiki/Glaceon
 19. bron 19: Sylveon informatie en gif https://pokemon.fandom.com/wiki/Sylveon
 20. bron 20: Pokémon boxes interface https://www.usgamer.net/articles/pokemon-sword-and-shield-how-to-use-the-pc-box-link
+21. bron 21: Pokéball https://www.pngwing.com/en/free-png-cjome
 </details>

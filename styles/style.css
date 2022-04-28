@@ -29,17 +29,26 @@ button:not([disabled]) {
 }
 
 
+
+/* ***********
+    LIJSTEN
+************** */
+
+
+
 /* Blok met alle Eevee stroken er in, is altijd zo groot als de browser */
-#groep {
+ul {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   height: 100vh;
   width: 100vw;
+  margin: 0rem;
+  padding: 0em;
 }
 
 /* Class die ieder Eevee blok heeft, zorgt ervoor dat afbeelding in het midden van het blok staat */
-.blok {
+ul li {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,27 +56,27 @@ button:not([disabled]) {
 }
 
 /* De Eeveestaart afbeelding */
-.blok img {
+ul li img {
   width: 5em;
   height: 10em;
 }
 
 /* Eevee blok */
 /* 100% width en height zorgt ervoor dat de breedte van de blokken eerlijk worden verdeeld */
-#eevee {
+ul li:nth-of-type(1) {
   width: 100%;
   background-color: var(--brown);
 }
 
 /* Animatie hover */
-#eevee:hover {
+ul li:nth-of-type(1):hover {
   background: linear-gradient(180deg, rgba(201, 133, 77, 1) 0%, rgba(162, 85, 14, 1) 50%, rgba(201, 133, 77, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
 /* animatie voor de button met hover */
-#eevee:hover button {
+ul li:nth-of-type(1):hover button {
   animation: btnReveal 0.6s forwards;
 }
 
@@ -117,7 +126,7 @@ button:not([disabled]) {
 }
 
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin */
-.blok:hover img {
+ul li:hover img {
   animation-name: wiggle;
   transform-origin: bottom center;
   animation-duration: 2s;
@@ -158,152 +167,160 @@ button:focus {
 }
 
 /* Vaporeon blok */
-#vaporeon {
+ul li:nth-of-type(2) {
   width: 100%;
   background-color: var(--blue);
 }
 
 /* Animatie hover */
-#vaporeon:hover {
+ul li:nth-of-type(2):hover {
   background: linear-gradient(180deg, rgba(91, 208, 255, 1) 0%, rgba(0, 162, 227, 1) 50%, rgba(91, 208, 255, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
 /* Vaporeon animatie button hover */
-#vaporeon:hover button {
+ul li:nth-of-type(2):hover button {
   animation: btnReveal 0.6s forwards;
 }
 
 /* Jolton blok */
-#jolteon {
+ul li:nth-of-type(3) {
   width: 100%;
   background-color: var(--yellow);
 }
 
 /* Jolteon blok hover state met gradient */
-#jolteon:hover {
+ul li:nth-of-type(3):hover {
   background: linear-gradient(180deg, rgba(255, 236, 141, 1) 0%, rgba(255, 213, 0, 1) 50%, rgba(255, 236, 141, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
 /* Jolteon animatie button hover */
-#jolteon:hover button {
+ul li:nth-of-type(3):hover button {
   animation: btnReveal 0.6s forwards;
 }
 
 /* Flareon blok */
-#flareon {
+ul li:nth-of-type(4) {
   width: 100%;
   background-color: var(--red);
 }
 
 /* Flareon blok hover state met gradient */
-#flareon:hover {
+ul li:nth-of-type(4):hover {
   background: linear-gradient(180deg, rgba(255, 126, 103, 1) 0%, rgba(255, 71, 38, 1) 50%, rgba(255, 126, 103, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
 /* Flareon animatie button hover */
-#flareon:hover button {
+ul li:nth-of-type(4):hover button {
   animation: btnReveal 0.6s forwards;
 }
 
 /* Umbreon blok */
-#umbreon {
+ul li:nth-of-type(5) {
   width: 100%;
   background-color: var(--grey);
 }
 
 /* Umbreon  blok hover state met gradient */
-#umbreon:hover {
+ul li:nth-of-type(5):hover {
   background: linear-gradient(180deg, rgba(106, 103, 86, 1) 0%, rgba(55, 54, 46, 1) 50%, rgba(106, 103, 86, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
 /* Umbreon animatie button hover */
-#umbreon:hover button {
+ul li:nth-of-type(5):hover button {
   animation: btnReveal 0.6s forwards;
 }
 
 /* Espeon blok */
-#espeon {
+ul li:nth-of-type(6) {
   width: 100%;
   height: 100%;
   background-color: var(--purple);
 }
 
 /* Espeon blok hover state met gradient */
-#espeon:hover {
+ul li:nth-of-type(6):hover {
   background: linear-gradient(180deg, rgba(239, 183, 241, 1) 0%, rgba(197, 151, 199, 1) 50%, rgba(239, 183, 241, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
 /* Espeon animatie button hover */
-#espeon:hover button {
+ul li:nth-of-type(6):hover button {
   animation: btnReveal 0.6s forwards;
 }
 
 /* Leafeon blok */
-#leafeon {
+ul li:nth-of-type(7) {
   width: 100%;
   background-color: var(--green);
 }
 
 /* Leafeon blok hover state met gradient */
-#leafeon:hover {
+ul li:nth-of-type(7):hover {
   background: linear-gradient(180deg, rgba(155, 217, 131, 1) 0%, rgba(103, 168, 90, 1) 50%, rgba(155, 217, 131, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
 /* Leafeon animatie button hover */
-#leafeon:hover button {
+ul li:nth-of-type(7):hover button {
   animation: btnReveal 0.6s forwards;
 }
 
 /* Glaceon blok */
-#glaceon {
+ul li:nth-of-type(8) {
   width: 100%;
   background-color: var(--iceblue);
 }
 
 /* Glaceon blok hover state met gradient */
-#glaceon:hover {
+ul li:nth-of-type(8):hover {
   background: linear-gradient(180deg, rgba(66, 249, 255, 1) 0%, rgba(41, 213, 219, 1) 50%, rgba(66, 249, 255, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
 /* Glaceon animatie button hover */
-#glaceon:hover button {
+ul li:nth-of-type(8):hover button {
   animation: btnReveal 0.6s forwards;
 }
 
 /* Sylveon blok */
-#sylveon {
+ul li:nth-of-type(9) {
   width: 100%;
   background-color: var(--pink);
 }
 
 /* Sylveon blok hover state met gradient */
-#sylveon:hover {
+ul li:nth-of-type(9):hover {
   background: linear-gradient(180deg, rgba(255, 201, 214, 1) 0%, rgba(255, 153, 178, 1) 50%, rgba(255, 201, 214, 1) 100%);
   animation: eeveebg 1.5s linear infinite;
   background-size: 400% 50%;
 }
 
 /* Sylveon animatie button hover */
-#sylveon:hover button {
+ul li:nth-of-type(9):hover button {
   animation: btnReveal 0.6s forwards;
 }
 
+
+
+/* ***********
+    KAART
+************** */
+
+
+
 /* Pokemon kaart */
-.kaart {
+article {
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -326,7 +343,7 @@ button:focus {
 }
 
 /* styling naam binnen de kaart */
-.naam {
+article header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -335,21 +352,9 @@ button:focus {
 }
 
 /* styling energy type */
-.naam img {
+article header img {
   width: 1.4em;
   height: 1.4em;
-}
-
-/* Achtergrond van de eevee kaart */
-.imgbg {
-  width: 100%;
-  background: linear-gradient(180deg, rgba(219, 219, 219, 1) 0%, rgba(166, 166, 166, 1) 50%, rgba(219, 219, 219, 1) 100%);
-  animation: cardbg 2s linear infinite;
-  background-size: 400% 400%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 0.2em;
 }
 
 /* Animatie voor de achtergrond van de eevee kaart */
@@ -367,11 +372,21 @@ button:focus {
 /* Image binnen de pokemon kaart */
 .pokemonimg {
   height: 12em;
+  width: 20em;
   padding: 1em 0em;
+  object-fit: contain;
+  background: linear-gradient(180deg, rgba(219, 219, 219, 1) 0%, rgba(166, 166, 166, 1) 50%, rgba(219, 219, 219, 1) 100%);
+  animation: cardbg 2s linear infinite;
+  background-size: 400% 400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2em;
 }
 
+
 /* Kaart titels en teksten */
-.kaart h1 {
+article header h1 {
   font-size: 0.5em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -379,7 +394,7 @@ button:focus {
   flex-grow: 2;
 }
 
-.kaart h2, h3 {
+article header h2, h3 {
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -388,21 +403,26 @@ button:focus {
   padding-right: 2%;
 }
 
-.kaart h3 {
+article header h3 {
   padding-top: 0.8em;
-}
-
-.kaart p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-bottom: 0.2em;
 }
 
 /* Word-wrap zorgt ervoor dat de tekst binnen de kaart blijft */
 /* https://www.w3schools.com/cssref/css3_pr_word-wrap.asp */
-.kaartekst {
+article p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 0.2em;
   width: 100%;
   word-wrap: break-word;
 }
+
+
+
+/* ***********
+    OVERLAY
+************** */
+
+
 
 /* Overlay Pokemon kaart */
 /* https://www.w3schools.com/howto/howto_css_overlay.asp */
@@ -417,9 +437,12 @@ button:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7); /* Zwarte achtergrond met opacity*/
-  cursor: pointer; /* Voeg een pointer handje toe, zodat het duidelijk is dat je op de overlay kan klikken om hem te sluiten. */
-  animation: overlayReveal 1s forwards; /* Overlay komt in beeld animatie*/
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Zwarte achtergrond met opacity*/
+  cursor: pointer;
+  /* Voeg een pointer handje toe, zodat het duidelijk is dat je op de overlay kan klikken om hem te sluiten. */
+  animation: overlayReveal 1s forwards;
+  /* Overlay komt in beeld animatie*/
 }
 
 /* Animatie Overlay achtergrond in beeld*/
@@ -432,6 +455,14 @@ button:focus {
     opacity: 100%;
   }
 }
+
+
+
+/* ***********
+    ANIMATIE KAARTEN
+************** */
+
+
 
 /* Pokemon kaarten */
 #eeveeKaart {
@@ -492,17 +523,18 @@ button:focus {
   }
 }
 
+
+
+/* ***********
+    EASTEREGG
+************** */
+
+
+
 /* Easter egg pijl */
 #arrow {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 10em;
+  width: 6em;
   height: 8em;
-}
-
-#arrow img{
-  width: 5em;
 }
 
 /* Pokeball easter egg */
@@ -510,18 +542,20 @@ button:focus {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 5em;
+  width: 10em;
   height: 10em;
   z-index: 2;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-#pokeball img {
+#pokeball img:nth-of-type(1) {
   width: 4em;
   height: 4em;
   opacity: 0%;
 }
 
-#pokeball:hover img {
+#pokeball:hover img:nth-of-type(1) {
   animation: throwPokeball 1s;
   transition-timing-function: ease-in;
 }
